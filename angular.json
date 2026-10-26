@@ -36,6 +36,9 @@
             }
           },
           "configurations": {
+            "pages": {
+              "baseHref": "/ng-portafolio/"
+            },
             "production": {
               "budgets": [
                 {
@@ -62,6 +65,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
+            "pages": {
+              "baseHref": "/ng-portafolio/"
+            },
             "production": {
               "buildTarget": "ng-portfolio:build:production"
             },
